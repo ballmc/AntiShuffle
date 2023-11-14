@@ -10,7 +10,7 @@ import net.minecraft.util.ChatComponentText;
 import java.util.regex.Pattern;
 
 public class Main implements ModInitializer {
-    public static boolean enabled = false;
+    public static boolean enabled = true;
     private static final Pattern shufflePattern = Pattern.compile("\u00a7k[OX]*");
 
     public static void setEnabled(boolean value) {
